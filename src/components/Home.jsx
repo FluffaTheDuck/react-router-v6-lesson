@@ -1,8 +1,7 @@
 import featImg from "../assets/main_img.jpg";
 
-export default function Home({ title }) {
+const Home = ({ title }) => {
   return (
-
     <div className="container">
       <img
         className="img-feat"
@@ -29,4 +28,6 @@ export default function Home({ title }) {
       </p>
     </div>
   );
-}
+};
+
+export default Home;
